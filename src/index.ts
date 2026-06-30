@@ -1,4 +1,3 @@
-import 'dotenv/config'
 import express from 'express'
 import { clerkClient, clerkMiddleware, getAuth } from '@clerk/express'
 
