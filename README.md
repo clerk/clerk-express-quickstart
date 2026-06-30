@@ -34,7 +34,7 @@ After following the [quickstart](https://clerk.com/docs/quickstarts/express), yo
 - Install `@clerk/express`
 - Set your Clerk API keys
 - Add `clerkMiddleware()` to your application
-- Protect your routes using `requireAuth()`
+- Protect your routes using `getAuth()`
 
 ## Deploy
 

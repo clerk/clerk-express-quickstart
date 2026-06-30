@@ -7,7 +7,7 @@
     "dev": "tsx watch src/index.ts"
   },
   "dependencies": {
-    "@clerk/express": "^1.7.7",
+    "@clerk/express": "^2.1.32",
     "express": "^5.1.0"
   },
   "devDependencies": {
