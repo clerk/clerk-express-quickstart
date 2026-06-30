@@ -13,7 +13,6 @@ app.get('/', (req, res) => {
 // Use `getAuth()` to protect this route
 app.get('/protected', async (req, res) => {
   // Use `getAuth()` to get the user's `userId`
-  // or you can use `req.auth()`
   const { userId } = getAuth(req)
 
   // If the user isn't authenticated, return a 401 status code
