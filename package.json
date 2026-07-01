@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "tsx --env-file=.env src/index.ts",
+    "start": "tsx src/index.ts",
     "dev": "tsx watch --env-file=.env src/index.ts"
   },
   "dependencies": {
@@ -13,6 +13,9 @@
   "devDependencies": {
     "@types/express": "^5.0.2",
     "tsx": "^4.19.4"
+  },
+  "engines": {
+    "node": ">=20.9.0"
   },
   "packageManager": "pnpm@10.33.4+sha512.1c67b3b359b2d408119ba1ed289f34b8fc3c6873412bec6fd264fbdc82489e510fcbecb9ce9d22dae7f3b76269d8441046014bdca53b9979cd7a561ad631b800"
 }
