@@ -34,13 +34,7 @@ After following the [quickstart](https://clerk.com/docs/quickstarts/express), yo
 - Install `@clerk/express`
 - Set your Clerk API keys
 - Add `clerkMiddleware()` to your application
-- Protect your routes using `requireAuth()`
-
-## Deploy
-
-Easily deploy the template to Vercel with the button below. You will need to set the required environment variables in the Vercel dashboard.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fclerk%2Fclerk-express-quickstart&env=NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,CLERK_SECRET_KEY&envDescription=Clerk%20API%20keys&envLink=https%3A%2F%2Fclerk.com%2Fdocs%2Fquickstart%express&redirect-url=https%3A%2F%2Fclerk.com%2Fdocs%2Fquickstart%express)
+- Protect your routes using `getAuth()`
 
 ## Running the template
 
@@ -54,7 +48,7 @@ To run the example locally, you need to:
 
 2. Go to the [Clerk dashboard](https://dashboard.clerk.com?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=clerk-express-quickstart) and create an application.
 
-3. Set the required Clerk environment variables as shown in [the example `env.example` file](./.env.example).
+3. Create your `.env` file by copying the [example `.env.example` file](./.env.example), then add your keys. You can retrieve them from the [**API keys**](https://dashboard.clerk.com/~/api-keys) page in the Clerk Dashboard.
 
 4. `pnpm install` the required dependencies.
 
